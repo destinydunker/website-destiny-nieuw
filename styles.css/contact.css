@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: rgb(46, 110, 148);
+    background-image: url("../images/achtergrond-pag2.png");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    max-height: 120px;
+    max-width: 460px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    background-color: rgb(38, 103, 141);
+}
