@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: rgb(46, 110, 148);
+    background-image: url("../images/achtergrond1.png");
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.review {
+    max-width: 160px;
+
+}
+
+
+header img {
+    max-height: 120px;
+    max-width: 460px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    background-color: rgb(38, 103, 141);
+}
+
+h2 {
+    color: white;
+    font-family: "Abril Fatface", "Arial";
+    padding: 40px 0 40px 30px;
+    font-size: 19px;
+}
+
+
+ul.nav01 {
+    display: flex;
+    padding-top: 80px;
+}
+
+ul.nav01 li {
+    list-style: none;
+    padding-right: 40px;
+
+}
+
+ul.nav01 li a {
+    color: white;
+
+}
+
+.nav02 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+ul.nav02 li {
+    padding-left: 60px;
+    list-style: none;
+}
+
+ul.nav02 li a {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0 20px 0;
+}
+
+.flex-container div {
+    width: 270px;
+    background-color: #365E6F;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 150px 0 150px;
+    text-align: center;
+    font-family: "Abril Fatface", "Arial";
+}
+
+.grid-container div {
+    background-color: white;
+    border-color: #365E6F;
+    margin: 30px 20px 30px 20px;
+}
+
+.container2 {
+    background-image: url("../images/achtergrond2.png");
+    background-repeat: no-repeat;
+    background-size: 1950px 850px;
+}
+
+h2.hoofdzaak {
+    display: inline-block;
+    padding: 20px;
+    background-color: #365E6F;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 30px 20px 30px 20px;
+}
+
+.container3 {
+    background-image: url("../images/achtergrond3.png");
+    background-repeat: no-repeat;
+    background-size: 2500px 1158px;
+}
+
+.content-item {
+    padding: 0 0 0 200px;
+}
+
+.content-item h3 {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: #365E6F;
+    border-width: 2px;
+    margin: 30px 20px;
+}
+
+.content-item p {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0 140px 0 0;
+}
+
+.buttons {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: #365E6F;
+    border-width: 2px;
+    margin: 30px 20px;
+    max-width: 250px;
+    text-align: center;
+    float: right;
+}
+
+.container4 {
+    background-image: url("../images/achtergrond4.jpg");
+    background-repeat: no-repeat;
+    background-size: 2500px 1158px;
+}
+
+h2.hoofdzaak {
+    display: inline-block;
+    padding: 20px;
+    background-color: #365E6F;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 30px 20px 30px 20px;
+}
